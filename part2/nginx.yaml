@@ -4,7 +4,7 @@ metadata:
   name: nginx-1
 spec:
   version: stable-alpine
-  reconcileDelay: 2s
+  reconcileDelay: 5s
 ---
 apiVersion: example.thetechnick.ninja/v1alpha1
 kind: Nginx
@@ -12,7 +12,7 @@ metadata:
   name: nginx-2
 spec:
   version: stable-alpine
-  reconcileDelay: 2s
+  reconcileDelay: 5s
 ---
 apiVersion: example.thetechnick.ninja/v1alpha1
 kind: Nginx
@@ -20,4 +20,4 @@ metadata:
   name: nginx-3
 spec:
   version: stable-alpine
-  reconcileDelay: 2s
+  reconcileDelay: 5s
